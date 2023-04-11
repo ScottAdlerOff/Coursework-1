@@ -53,4 +53,4 @@ public class Main {
         return calculateTotalSalary() / (float) employees.length;
     }
 
-    }
+}

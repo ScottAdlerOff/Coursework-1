@@ -15,6 +15,7 @@ public class Main {
             new Employee("Марк Шерон", 2, 32750),
     };
     public static void main(String[] args) {
+        System.out.println("Сумма затрат за месяц - " + calculateTotalSalary());
     }
     public static void listEmployees(){
         for (Employee employee : employees){
@@ -53,4 +54,4 @@ public class Main {
         return calculateTotalSalary() / (float) employees.length;
     }
 
-    }
+}

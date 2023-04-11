@@ -15,6 +15,11 @@ public class Main {
             new Employee("Марк Шерон", 2, 32750),
     };
     public static void main(String[] args) {
+        int sum = 0;
+        for (Employee employee : employees) {
+            sum += employee.getSalary();
+        }
+        System.out.println("Сумма затрат за месяц - " + calculateTotalSalary());
     }
     public static void listEmployees(){
         for (Employee employee : employees){
